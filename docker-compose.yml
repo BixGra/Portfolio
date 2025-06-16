@@ -1,0 +1,12 @@
+version: "3.1"
+
+services:
+  familytree:
+    image: portfolio:latest
+    container_name: portfolio
+    networks:
+      - sandbixproxy_mynet
+
+networks:
+  sandbixproxy_mynet:
+    external: true
