@@ -94,7 +94,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    width: 300px;
+    min-width: 300px;
 }
 
 .main {
@@ -235,7 +235,8 @@ header {
 #about-text {
     flex: 1;
     min-width: 400px;
-    margin: 5vw;
+    max-width: calc(100% - 30vh);
+    margin: 2vw;
 }
 
 .carousel-container {
@@ -321,4 +322,28 @@ header {
         background 0.4s ease,
         opacity 0.4s ease
     ;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: calc(var(--header-height) * 3);
+
+    background-color: var(--main-color3-dark);
+
+    z-index: 1;
+}
+
+.footer-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1000px;
+
+    padding: 0 20px 0 20px;
 }
