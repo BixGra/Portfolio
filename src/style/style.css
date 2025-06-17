@@ -17,6 +17,10 @@
     --block-margin: 3vh;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font: var(--main-font);
@@ -230,23 +234,65 @@ header {
     ;
 }
 
-#photo-about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#photo-about-img {
+#about-social {
     width: 24vh;
     min-width: 300px;
 }
 
+.about-social-item {
+    min-width: 120px;
+    max-width: 6vw;
+    justify-content: space-between;
+    text-decoration: none;
+    p {
+        color: var(--main-font-color);
+        padding: 10px;
+        margin-left: 20px;
+        transition:
+            color 0.4s ease
+        ;
+    }
+
+    img {
+        width: 4vh;
+        filter: var(--filter-main-font-color);
+        transition:
+            filter 0.4s ease
+        ;
+    }
+}
+
+.about-social-item:hover {
+    p {
+        color: var(--accent-color1);
+        transition:
+            color 0.4s ease
+        ;
+    }
+
+    img {
+        filter: var(--filter-accent-color1);
+        transition:
+            filter 0.4s ease
+        ;
+    }
+}
+
+.about-social-img {
+    width: 4vh;
+
+    filter: var(--filter-main-font-color);
+}
+
+.about-social-img:hover {
+    filter: var(--filter-accent-color1);
+}
+
 #about-text {
     flex: 1;
-    min-width: 400px;
-    max-width: calc(100% - 30vh);
-    margin: 2vw;
+    width: min(100%, 400px);
+    max-width: max(calc(100% - 30vh), 500px);
+    padding: 20px;
 }
 
 .carousel-container {
@@ -286,7 +332,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 
     width: 60%;
     height: 500px;
