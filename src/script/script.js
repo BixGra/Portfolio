@@ -22,6 +22,7 @@ let css_variables_light = {
     "--accent-color3": "#084202FF",
     "--filter-main-font-color": "brightness(0) saturate(100%) invert(5%) sepia(2%) saturate(2186%) hue-rotate(164deg) brightness(91%) contrast(95%)",
     "--filter-accent-color1": "brightness(0) saturate(100%) invert(75%) sepia(10%) saturate(2634%) hue-rotate(66deg) brightness(86%) contrast(94%)",
+    "--filter-accent-color2": "brightness(0) saturate(100%) invert(40%) sepia(10%) saturate(2845%) hue-rotate(67deg) brightness(87%) contrast(91%)",
 };
 
 function dark_mode() {
