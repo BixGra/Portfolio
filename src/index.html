@@ -19,7 +19,6 @@
             <div class="navbar-right">
                 <a href="#about">A propos</a>
                 <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
                 <img id="theme-button" src="./assets/dark.png" onclick="dark_mode();" onmouseenter="shake();"/>
             </div>
         </nav>
@@ -28,7 +27,7 @@
         <div class="block" id="first">
             <div class="col container">
                 <h3>Hello, je suis</h3>
-                <h1>Bixente</h1>
+                <h1 class="blue">Bixente</h1>
                 <h2>Développeur Back End</h2>
             </div>
             <div class="row container wrap">
@@ -37,7 +36,7 @@
                 </div>
                 <div class="col container item">
                     <div class="side-button-container">
-                        <a href="" target="_blank" class="side-button">Voir mon CV</a>
+                        <a href="https://sandbix.fr/files/files/Bixente%20Grandjean%20-%20CV.pdf" target="_blank" class="side-button">Voir mon CV</a>
                     </div>
                     <div class="side-button-container">
                         <a href="#about" class="side-button">A propos de moi</a>
@@ -48,96 +47,63 @@
         <div class="block" id="about">
                 <div class="col container title">
                     <h3>Présentation</h3>
-                    <h2>A propos de moi</h2>
+                    <h2 class="blue">A propos de moi</h2>
                 </div>
                 <div class="row container wrap">
-                    <div class="col container">
-                        <div class="col container" id="about-social">
-                            <a class="row container about-social-item" href="https://github.com/bixgra" target="_blank"><img src="./assets/github.png"><p>GitHub</p></a>
-                            <a class="row container about-social-item" href="https://linkedin.com/in/bixente-grandjean" target="_blank"><img src="./assets/linkedin.png"><p>Linkedin</p></a>
-                            <a class="row container about-social-item" href="https://bsky.app/profile/did:plc:i7dstf2xx7p36hsav6ltfemt" target="_blank"><img src="./assets/bluesky.png"><p>BlueSky</p></a>
-                        </div>
-                    </div>
                     <div class="col container" id="about-text">
                         <p>
-                            Après un diplôme d'ingénieur spécialisé en Big Data & Machine Learning, j'ai travaillé
-                            pendant plus de deux ans comme Machine Learning Engineer. J'ai développé des modèles de
-                            détection et de modération de contenu approprié de bout en bout (de l'entrainement du
-                            modèle à la création et mise en production d'une API l'exploitant).
+                            Après un diplôme d'ingénieur spécialisé en <span class="blue">Big Data & Machine
+                            Learning</span>, j'ai travaillé pendant plus de deux ans comme Machine Learning Engineer.
+                            J'ai développé des modèles de détection et de modération de contenu approprié de bout en
+                            bout (de l'entrainement du modèle à la création et mise en production d'une API
+                            l'exploitant).
                         </p>
                         <p>
-                            Depuis, je me suis dirigé vers le développement Back End à la fois professionnellement et
-                            pour des projets personnels. Pour ces projets, j'ai aussi pu apprendre à gérer certains
-                            aspects Front End et m'intéresser à l'expérience utilisateur, me permettant ainsi de
-                            participer à la refonte de l'onboarding de la plateforme Follaw, sur laquelle j'ai travaillé
-                            chez Saper Vedere.
+                            Depuis, je me suis dirigé vers le <span class="blue">développement Back End</span> à la fois
+                            professionnellement et pour des projets personnels. Pour ces projets, j'ai aussi pu
+                            apprendre à gérer certains aspects Front End et m'intéresser à l'expérience utilisateur, me
+                            permettant ainsi de participer à la refonte de l'onboarding de la plateforme Follaw, sur
+                            laquelle j'ai travaillé chez Saper Vedere.
                         </p>
+                    </div>
+                    <div class="col container">
+                        <div class="col container" id="about-social">
+                            <a class="row container about-social-item" href="https://github.com/bixgra" target="_blank"><img src="./assets/github.png"/><p>GitHub</p></a>
+                            <a class="row container about-social-item" href="https://linkedin.com/in/bixente-grandjean" target="_blank"><img src="./assets/linkedin.png"/><p>Linkedin</p></a>
+                            <a class="row container about-social-item" href="https://bsky.app/profile/did:plc:i7dstf2xx7p36hsav6ltfemt" target="_blank"><img src="./assets/bluesky.png"/><p>BlueSky</p></a>
+                            <a class="row container about-social-item" href="mailto:bixente.grandjean@gmail.com" target="_target"><img src="./assets/mail.png"/><p>Mail</p></a>
+                        </div>
                     </div>
                 </div>
         </div>
         <div class="block" id="portfolio">
             <div class="col container title">
                 <h3>Du concret</h3>
-                <h2>Mes réalisations</h2>
+                <h2 class="blue">Mes réalisations</h2>
             </div>
             <div class="carousel-container">
                 <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "autoPlay": 5000}'>
                     <div class="carousel-cell">
-                        <img class="carousel-img" src="./assets/tmp.png"/>
+                        <video class="carousel-img" autoplay muted loop><source src="./assets/spotify.mp4" type="video/mp4"/></video>
                         <p>
-                            Widget permettant d'afficher en temps réel la musique en train de jouer sur Spotify pour le
-                            streaming. Le widget est personnalisable à volonté avec plusieurs presets disponibles.
-                            Compatible avec OBS et d'autres logiciels de streaming.
+                            Widget spotify pour le streaming<br>Compatible avec OBS
                         </p>
                     </div>
                     <div class="carousel-cell">
                         <img class="carousel-img" src="./assets/tmp.png"/>
                         <p>
-                            [Visuels non publics pour l'instant] Création d'un site type "Smash or Pass" pour
-                            l'animation d'un stream.
+                            [Visuels non publics pour l'instant]<br>Site "Smash or Pass" interactif pour une créatrice
+                            de contenu<br>Contient une intégration Phillips Hue
                         </p>
                     </div>
                     <div class="carousel-cell">
                         <video class="carousel-img" autoplay muted loop><source src="./assets/buroast.mp4" type="video/mp4"/></video>
                         <p>
-                            Dans le cadre d'un stream dont le thème était la revue des bureaux de sa communauté, la
-                            streameuse Florence, alias AngledDroit, a utilisé un site permettant d'avoir une interface
-                            de notation et un affichage automatisé des images récupérées depuis un server Discord.
-                        </p>
-                    </div>
-                    <div class="carousel-cell">
-                        <img class="carousel-img" src="./assets/tmp.png"/>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim tortor augue, ut
-                            rhoncus leo iaculis tempor. Nunc quis consequat est. Etiam tincidunt mauris nibh, eget ultricies
-                            felis tempus eu. Suspendisse arcu nisi, rutrum sit amet feugiat nec, finibus ut lectus.
-                        </p>
-                    </div>
-                    <div class="carousel-cell">
-                        <img class="carousel-img" src="./assets/tmp.png"/>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim tortor augue, ut
-                            rhoncus leo iaculis tempor. Nunc quis consequat est. Etiam tincidunt mauris nibh, eget ultricies
-                            felis tempus eu. Suspendisse arcu nisi, rutrum sit amet feugiat nec, finibus ut lectus.
+                            Site support d'un live de revue de bureaux pour Florence alias AngleDroit<br>Récupération
+                            automatisée des images depuis un server Discord
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="block" id="contact">
-            <div class="col container title">
-                <h3>Intéressé ?</h3>
-                <h2>Me contacter</h2>
-            </div>
-            <div class="col container">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim tortor augue, ut
-                    rhoncus leo iaculis tempor. Nunc quis consequat est. Etiam tincidunt mauris nibh, eget ultricies
-                    felis tempus eu. Suspendisse arcu nisi, rutrum sit amet feugiat nec, finibus ut lectus. Nunc
-                    vulputate tincidunt ullamcorper. Pellentesque pellentesque, lorem ac fermentum pulvinar, metus
-                    turpis fermentum massa, quis pellentesque elit ligula vel felis. In ut purus in lorem rutrum
-                    vehicula.
-                </p>
             </div>
         </div>
     </div>
