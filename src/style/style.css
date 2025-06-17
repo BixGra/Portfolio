@@ -308,7 +308,7 @@ header {
 }
 
 .carousel-container {
-    height: 600px;
+    height: 550px;
     width: 100%;
 
     --mask-width: 10%;
@@ -347,10 +347,14 @@ header {
     justify-content: left;
 
     width: 60%;
-    height: 500px;
+    height: 400px;
     margin: 20px;
     box-sizing: border-box;
     text-align: center;
+}
+
+.carousel-cell.is-selected .carousel-img {
+    box-shadow: 0 0 10px var(--accent-color1);
 }
 
 .carousel-img {
