@@ -49,7 +49,7 @@ h3 {
     font-weight: bold;
 }
 
-.blue {
+.accent {
     color: var(--accent-color2);
 }
 
@@ -402,7 +402,7 @@ footer {
     justify-content: center;
 
     width: 100%;
-    height: calc(var(--header-height) * 3);
+    height: calc(var(--header-height)*1.5);
 
     background-color: var(--main-color3);
 
