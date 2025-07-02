@@ -1,6 +1,6 @@
 :root {
-    --main-font: 1.6vh "Nunito", sans-serif;
-    --secondary-font: 1.6vh "Inter", sans-serif;
+    --main-font: 2vh "Nunito", sans-serif;
+    --secondary-font: 2vh "Inter", sans-serif;
 
     --main-font-color: #FFFFFFFF;
     --main-color1: #0F1011FF;
@@ -97,6 +97,10 @@ header {
 
     img {
         height: 1.6vh;
+    }
+
+    img:hover {
+        cursor: pointer;
     }
 }
 
