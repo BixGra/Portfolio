@@ -10,6 +10,7 @@ let css_variables_dark = {
     "--accent-color3": "#02365BFF",
     "--filter-main-font-color": "brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7463%) hue-rotate(103deg) brightness(100%) contrast(106%)",
     "--filter-accent-color1": "brightness(0) saturate(100%) invert(44%) sepia(35%) saturate(2273%) hue-rotate(164deg) brightness(103%) contrast(100%)",
+    "--filter-accent-color2": "brightness(0) saturate(100%) invert(31%) sepia(39%) saturate(2800%) hue-rotate(181deg) brightness(96%) contrast(108%)",
 };
 
 let css_variables_light = {

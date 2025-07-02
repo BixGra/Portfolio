@@ -1,6 +1,6 @@
 :root {
-    --main-font: 1.6vh "Nunito", sans-serif;
-    --secondary-font: 1.6vh "Inter", sans-serif;
+    --main-font: 2vh "Nunito", sans-serif;
+    --secondary-font: 2vh "Inter", sans-serif;
 
     --main-font-color: #FFFFFFFF;
     --main-color1: #0F1011FF;
@@ -49,7 +49,7 @@ h3 {
     font-weight: bold;
 }
 
-.blue {
+.accent {
     color: var(--accent-color2);
 }
 
@@ -97,6 +97,10 @@ header {
 
     img {
         height: 1.6vh;
+    }
+
+    img:hover {
+        cursor: pointer;
     }
 }
 
@@ -402,7 +406,7 @@ footer {
     justify-content: center;
 
     width: 100%;
-    height: calc(var(--header-height) * 3);
+    height: calc(var(--header-height)*1.5);
 
     background-color: var(--main-color3);
 
