@@ -32,7 +32,7 @@ body {
 
 h1 {
     font-weight: 900;
-    letter-spacing: 10px;
+    letter-spacing: 0.5vw;
     margin: 0;
 }
 
@@ -77,12 +77,12 @@ header {
     width: 100%;
     max-width: 1000px;
 
-    padding: 0 20px 0 20px;
+    padding: 0 1vw;
 
     a {
         color: var(--main-font-color);
         text-decoration: none;
-        padding: 10px;
+        padding: 0.5vw;
         transition:
             color 0.4s ease
         ;
@@ -191,7 +191,7 @@ header {
     min-width: 300px;
 
     background-image: radial-gradient(var(--accent-color2), var(--accent-color3));
-    border-radius: 26px;
+    border-radius: 1.3vw;
 }
 
 #photo-first-img {
@@ -204,15 +204,15 @@ header {
     align-items: center;
     justify-content: center;
 
-    width: 240px;
-    height: 48px;
-    padding: 2px;
-    margin: 24px;
+    width: 12vw;
+    height: 2.6vw;
+    padding: 0.1vw;
+    margin: 1.2vw;
 
-    border-radius: 8px;
+    border-radius: 0.4vw;
 
     background: linear-gradient(60deg, var(--accent-color1), var(--accent-color2));
-    box-shadow: 0 0 10px var(--accent-color1);
+    box-shadow: 0 0 0.5vw var(--accent-color1);
 }
 
 .side-button {
@@ -228,9 +228,9 @@ header {
     text-align: center;
     text-decoration: none;
 
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(0.4vw);
 
-    border-radius: 6px;
+    border-radius: 0.4vw;
 
     background: var(--main-color1);
 
@@ -262,8 +262,8 @@ header {
     text-decoration: none;
     p {
         color: var(--main-font-color);
-        padding: 10px;
-        margin-left: 20px;
+        padding: 0.5vw;
+        margin-left: 1vw;
         transition:
             color 0.4s ease
         ;
@@ -308,11 +308,11 @@ header {
     flex: 1;
     width: min(100%, 400px);
     max-width: max(calc(100% - 30vh), 500px);
-    padding: 20px;
+    padding: 1vw;
 }
 
 .carousel-container {
-    height: 550px;
+    height: 55vh;
     width: 100%;
 
     --mask-width: 10%;
@@ -351,31 +351,30 @@ header {
     justify-content: left;
 
     width: 60%;
-    height: 400px;
-    margin: 20px;
+    height: 45vh;
+    margin: 1vw;
     box-sizing: border-box;
     text-align: center;
 }
 
 .carousel-cell.is-selected .carousel-img {
-    box-shadow: 0 0 10px var(--accent-color1);
+    box-shadow: 0 0 0.5vw var(--accent-color1);
 }
 
 .carousel-img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 0.4vw;
     overflow: hidden;
 }
 
 .flickity-page-dots {
-    bottom: 30px;
 }
 
 .flickity-page-dots .dot {
-    box-shadow: 0 0 10px var(--accent-color1);
+    box-shadow: 0 0 0.5vw var(--accent-color1);
     opacity: 1;
     background: transparent;
-    border: 2px solid var(--accent-color1);
+    border: 0.1vw solid var(--accent-color1);
 
     transition:
         background 0.4s ease,
@@ -422,5 +421,5 @@ footer {
     width: 100%;
     max-width: 1000px;
 
-    padding: 0 20px 0 20px;
+    padding: 0 1vw;
 }
