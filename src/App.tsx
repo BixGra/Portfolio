@@ -13,6 +13,7 @@ function App() {
 
   function getTheme() {
     if (localStorage.getItem('theme') === 'dark') return 'dark';
+    document.body.classList.add('light');
     return 'light';
   }
   const [theme, setTheme] = useState<'dark' | 'light'>(getTheme());
