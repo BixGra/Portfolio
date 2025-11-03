@@ -216,8 +216,7 @@ a:hover {
   margin: 1rem 0;
   box-shadow: var(--glow);
   border-radius: 0.5rem;
-  overflow: clip;
-  overflow-clip-margin: content-box;
+  overflow: hidden;
 }
 
 .hello-button {
@@ -225,6 +224,7 @@ a:hover {
   padding: 0.8rem;
   font-weight: var(--bold);
   transition: var(--transition);
+  border-radius: 0.4rem;
 }
 
 .hello-button-border:hover {
