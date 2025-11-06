@@ -7,7 +7,7 @@ interface FooterProps {
 
 function Footer({ texts, language }: FooterProps) {
   return (
-    <div className='footer'>
+    <footer>
       <div>Bixente Grandjean - 2025</div>
       <div className='footer-center'>
         <a href='https://github.com/BixGra/Portfolio' target='_blank'>
@@ -27,7 +27,7 @@ function Footer({ texts, language }: FooterProps) {
         </a>
       </div>
       <div>{texts.footer.thanks[language]}</div>
-    </div>
+    </footer>
   );
 }
 

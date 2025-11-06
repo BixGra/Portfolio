@@ -94,7 +94,7 @@ a:hover {
   color: var(--accent-dark);
 }
 
-.header {
+header {
   position: sticky;
   top: 0;
   z-index: 1;
@@ -139,7 +139,7 @@ a:hover {
   cursor: pointer;
 }
 
-.main {
+main {
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -375,7 +375,7 @@ a:hover {
   width: 3rem;
 }
 
-.footer {
+footer {
   background-color: var(--bg-dark);
 
   display: flex;
@@ -396,7 +396,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 1100px) {
-  .header {
+  header {
     padding: 1rem 10vw;
   }
 
@@ -417,7 +417,7 @@ a:hover {
     margin-left: 0;
   }
 
-  .footer {
+  footer {
     flex-direction: column;
     justify-content: center;
     gap: 1rem;

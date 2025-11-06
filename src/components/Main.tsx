@@ -10,11 +10,11 @@ interface MainProps {
 
 function Main({ texts, language }: MainProps) {
   return (
-    <div className='main'>
+    <main>
       <Hello texts={texts} language={language} />
       <About texts={texts} language={language} />
       <Projects texts={texts} language={language} />
-    </div>
+    </main>
   );
 }
 

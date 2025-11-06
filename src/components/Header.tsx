@@ -16,7 +16,7 @@ function Header({
   setTheme,
 }: HeaderProps) {
   return (
-    <div className='header'>
+    <header>
       <a className='header-left' href='#hello'>
         Bixente
       </a>
@@ -46,7 +46,7 @@ function Header({
           }}
         />
       </div>
-    </div>
+    </header>
   );
 }
 
