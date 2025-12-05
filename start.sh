@@ -6,6 +6,6 @@ echo "docker compose up -d --remove-orphans"
 
 docker compose up -d --remove-orphans
 
-echo "docker image prune -a"
+echo "system prune -a"
 
 docker system prune -a

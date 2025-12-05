@@ -1,0 +1,48 @@
+{
+  "header": {
+    "about": { "en": "About me", "fr": "A propos" },
+    "projects": { "en": "Projects", "fr": "Réalisations" },
+    "language": { "en": "fr.png", "fr": "gb.png" },
+    "languagealt": { "en": "French flag icon", "fr": "British flag icon" }
+  },
+  "hello": {
+    "title": { "en": "Hello, I am", "fr": "Bonjour, je suis" },
+    "subtitle": {
+      "en": "Full Stack developer",
+      "fr": "Developpeur Full Stack"
+    },
+    "cv": { "en": "My resume", "fr": "Mon CV" },
+    "cvurl": {
+      "en": "https://files.sandbix.fr/CVen.pdf",
+      "fr": "https://files.sandbix.fr/CV.pdf"
+    },
+    "about": { "en": "About me", "fr": "A propos de moi" }
+  },
+  "about": {
+    "title": { "en": "Introduction", "fr": "Présentation" },
+    "subtitle": { "en": "About me", "fr": "A propos de moi" },
+    "text": {
+      "en": [
+        "After graduating with a degree in engineering with a specialisation in <span class=\"accent\">Big Data & Machine Learning</span>, I worked for over two years as a Machine Learning Engineer at Yubo, mainly in <span class=\"accent\">Python</span>. I developed end-to-end content detection and moderation models (from model training to the deployment of an API that uses it).",
+        "Since then, I have moved into <span class=\"accent\">back end development</span>, both professionally and for personal projects. For these projects, I have also learned to manage some front-end aspects and developed an interest in user experience, which has enabled me to be involved in the redesign of the onboarding process for the Follaw platform, on which I worked at Saper Vedere.",
+        "More recently, as I wanted to improve my front end skills, I have been learning React and TypeScript."
+      ],
+      "fr": [
+        "Après un diplôme d'ingénieur spécialisé en <span class=\"accent\">Big Data & Machine Learning</span>, j'ai travaillé pendant plus de deux ans comme Machine Learning Engineer chez Yubo, principalement en <span class=\"accent\">Python</span>. J'ai développé des modèles de détection et de modération de contenu approprié de bout en bout (de l'entrainement du modèle à la création et mise en production d'une API l'exploitant).",
+        "Depuis, je me suis dirigé vers le <span class=\"accent\">développement Back End</span> à la fois professionnellement et pour des projets personnels. Pour ces projets, j'ai aussi pu apprendre à gérer certains aspects Front End et m'intéresser à l'expérience utilisateur, me permettant ainsi d'être impliqué dans la refonte de l'onboarding de la plateforme Follaw, sur laquelle j'ai travaillé chez Saper Vedere.",
+        "Plus récemment, alors je voulais améliorer mes compétences front end, j'ai commencé à apprendre <span class=\"accent\">TypeScript et React</span>."
+      ]
+    }
+  },
+  "projects": {
+    "title": { "en": "Less talking", "fr": "Du concret" },
+    "subtitle": { "en": "My projects", "fr": "Mes projets" }
+  },
+  "footer": {
+    "site": { "en": "Source code", "fr": "Code du site" },
+    "thanks": {
+      "en": "Thanks Lisa for the design",
+      "fr": "Merci Lisa pour le design"
+    }
+  }
+}

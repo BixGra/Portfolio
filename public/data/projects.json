@@ -1,0 +1,65 @@
+[
+  {
+    "name": "spotify",
+    "video": "spotify.mp4",
+    "type": "video/mp4",
+    "text": {
+      "en": "Spotify streaming widget, OBS compatible<br>Python, HTML, CSS, JS, OAuth, Spotify API",
+      "fr": "Widget Spotify pour le streaming, compatible avec OBS<br>Python, HTML, CSS, JS, Oauth, API Spotify"
+    }
+  },
+  {
+    "name": "weather",
+    "video": "weather.mp4",
+    "type": "video/mp4",
+    "text": {
+      "en": "Current weather of a random place in the world<br>Python, HTML, CSS, OpenMeteo API",
+      "fr": "Météo actuelle d'un endroit aléatoire dans le monde<br>Python, HTML, CSS, API OpenMeteo"
+    }
+  },
+  {
+    "name": "agenda",
+    "video": "agenda.mp4",
+    "type": "video/mp4",
+    "text": {
+      "en": "\"World day of\" calendar, collaborative database<br>Python, HTML, CSS, JS, GoogleSheet",
+      "fr": "Calendrier des journées mondiales, base de donnée participative<br>Python, HTML, CSS, JS, GoogleSheet"
+    }
+  },
+  {
+    "name": "sop",
+    "video": "sop.mp4",
+    "type": "video/mp4",
+    "text": {
+      "en": "Interactive polling website for streaming<br>Python, HTML, CSS, JS, Twitch API, Phillips Hue API",
+      "fr": "Site de votes interactifs pour le streaming<br>Python, HTML, CSS, JS, API Twitch, API Phillips Hue"
+    }
+  },
+  {
+    "name": "buroast",
+    "video": "buroast.mp4",
+    "type": "video/mp4",
+    "text": {
+      "en": "Desktop review website for a content creator<br>HTML, CSS, JS, Discord automated scraping",
+      "fr": "Site de revue de bureaux pour une créatrice de contenu<br>HTML, CSS, JS, API Twitch, scraping automatisé de Discord"
+    }
+  },
+  {
+    "name": "pirdle",
+    "video": "pirdle.mp4",
+    "type": "video/mp4",
+    "text": {
+      "en": "Daily game: who was born on this day<br>HTML, CSS, JS, Python daily web scraping",
+      "fr": "Jeu journalier : trouver les personnes nées ce jour<br>HTML, CSS, JS, scraping journalier Python"
+    }
+  },
+  {
+    "name": "grs",
+    "video": "grs.mp4",
+    "type": "video/mp4",
+    "text": {
+      "en": "Trackmania global esport circuit, website creation and project lead<br>HTML, CSS, JS, Python",
+      "fr": "Circuit esport sur Trackmania, création du site et du projet<br>HTML, CSS, JS, Python"
+    }
+  }
+]
